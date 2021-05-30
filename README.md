@@ -28,7 +28,30 @@ stow -vt ~ *
 .
 ├── README.md
 ├── config
+│   └── .config
+│       ├── VscodeCSS.css
+│       ├── karabiner
+│       │   └── karabiner.json
+│       ├── limelight
+│       │   └── limelightrc
+│       ├── skhd
+│       │   └── skhdrc
+│       ├── vimium-options.json
+│       └── yabai
+│           ├── moveWindowLeftAndFollowFocus.sh
+│           ├── moveWindowRightAndFollowFocus.sh
+│           ├── switchAndFocusSIP.sh
+│           ├── window-focus-on-destroy.sh
+│           └── yabairc
 ├── hammerspoon
+│   └── .hammerspoon
+│       ├── Spoons
+│       │   └── ReloadConfiguration.spoon
+│       │       ├── docs.json
+│       │       └── init.lua
+│       ├── init.lua
+│       └── stackline
+│           └── conf.lua
 ├── img
 │   └── my_workman_layout.gif
 ├── keyboard layouts
@@ -53,7 +76,9 @@ stow -vt ~ *
 │                   │       └── InfoPlist.strings
 │                   └── version.plist
 ├── tmux
+│   └── .tmux.conf
 ├── vimrc
+│   └── .vimrc
 ├── vscode
 │   └── Library
 │       └── Application Support
@@ -62,7 +87,10 @@ stow -vt ~ *
 │                   ├── keybindings.json
 │                   └── settings.json
 ├── workman
+│   └── .workman
+│       ├── vimrc
+│       └── zshrc
 └── zshrc
+    └── .zshrc
 
-23 directories, 14 files
 ```
