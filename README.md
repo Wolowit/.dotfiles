@@ -35,6 +35,8 @@ stow -vt ~ *
 │       ├── limelight
 │       │   └── limelightrc
 │       ├── nvim
+│       │   ├── lua
+│       │   │   └── settings.lua
 │       │   └── vimscript
 │       │       └── lv-vscode
 │       │           └── init.vim
@@ -58,9 +60,9 @@ stow -vt ~ *
 │           └── conf.lua
 ├── img
 │   └── my_workman_layout.gif
-├── keyboard layouts
+├── keyboard\ layouts
 │   └── Library
-│       └── Keyboard Layouts
+│       └── Keyboard\ Layouts
 │           ├── Thai.bundle
 │           │   └── Contents
 │           │       ├── Info.plist
@@ -85,7 +87,7 @@ stow -vt ~ *
 │   └── .vimrc
 ├── vscode
 │   └── Library
-│       └── Application Support
+│       └── Application\ Support
 │           └── Code
 │               └── User
 │                   ├── keybindings.json
