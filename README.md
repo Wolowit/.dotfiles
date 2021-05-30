@@ -30,10 +30,10 @@ stow -vt ~ *
 ├── config
 ├── hammerspoon
 ├── img
-│   └── my\ workman\ layout.gif
-├── keyboard\ layouts
+│   └── my_workman_layout.gif
+├── keyboard layouts
 │   └── Library
-│       └── Keyboard\ Layouts
+│       └── Keyboard Layouts
 │           ├── Thai.bundle
 │           │   └── Contents
 │           │       ├── Info.plist
@@ -52,12 +52,11 @@ stow -vt ~ *
 │                   │   └── en.lproj
 │                   │       └── InfoPlist.strings
 │                   └── version.plist
-├── text.text
 ├── tmux
 ├── vimrc
 ├── vscode
 │   └── Library
-│       └── Application\ Support
+│       └── Application Support
 │           └── Code
 │               └── User
 │                   ├── keybindings.json
@@ -65,5 +64,5 @@ stow -vt ~ *
 ├── workman
 └── zshrc
 
-23 directories, 15 files
+23 directories, 14 files
 ```
