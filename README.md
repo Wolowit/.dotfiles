@@ -21,3 +21,49 @@ stow -vt ~ *
 ## workman keybord layout
 
 <img src="https://github.com/Wolowit/.dotfiles/blob/main/img/my%20workman%20layout.gif" width="550" height="125" />
+
+---
+
+```bash
+.
+├── README.md
+├── config
+├── hammerspoon
+├── img
+│   └── my\ workman\ layout.gif
+├── keyboard\ layouts
+│   └── Library
+│       └── Keyboard\ Layouts
+│           ├── Thai.bundle
+│           │   └── Contents
+│           │       ├── Info.plist
+│           │       ├── Resources
+│           │       │   ├── Thai.icns
+│           │       │   ├── Thai.keylayout
+│           │       │   └── en.lproj
+│           │       │       └── InfoPlist.strings
+│           │       └── version.plist
+│           └── Workman.bundle
+│               └── Contents
+│                   ├── Info.plist
+│                   ├── Resources
+│                   │   ├── Workman.icns
+│                   │   ├── Workman.keylayout
+│                   │   └── en.lproj
+│                   │       └── InfoPlist.strings
+│                   └── version.plist
+├── text.text
+├── tmux
+├── vimrc
+├── vscode
+│   └── Library
+│       └── Application\ Support
+│           └── Code
+│               └── User
+│                   ├── keybindings.json
+│                   └── settings.json
+├── workman
+└── zshrc
+
+23 directories, 15 files
+```
