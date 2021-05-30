@@ -20,7 +20,7 @@ stow -vt ~ *
 
 ## workman keybord layout
 
-<img src="https://github.com/Wolowit/.dotfiles/blob/main/img/my%20workman%20layout.gif" width="550" height="125" />
+<img src="https://github.com/Wolowit/.dotfiles/blob/main/img/my_workman_layout.gif" width="550" height="125" />
 
 ---
 
