@@ -34,6 +34,10 @@ stow -vt ~ *
 │       │   └── karabiner.json
 │       ├── limelight
 │       │   └── limelightrc
+│       ├── nvim
+│       │   └── vimscript
+│       │       └── lv-vscode
+│       │           └── init.vim
 │       ├── skhd
 │       │   └── skhdrc
 │       ├── vimium-options.json
