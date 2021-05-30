@@ -7,7 +7,7 @@ brew install stow
 # clone at ~
 git clone https://github.com/Wolowit/.dotfiles.git
 cd .dotfiles
-rm README.md
+rm -rf README.md img
 # show what gonna happen
 stow -nvt ~ *
 # stow everything or "stow -vSt ~ *"
