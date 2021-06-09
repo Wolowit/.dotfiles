@@ -331,12 +331,32 @@
       "when": "!inQuickOpen"
     },
     {
+      "key": "ctrl+alt+left", 
+      "command": "workbench.action.navigateLeft",
+      "when": "!inQuickOpen"
+    },
+    {
       "key": "ctrl+o", 
       "command": "workbench.action.navigateRight",
       "when": "!inQuickOpen"
     },
     {
+      "key": "ctrl+alt+right", 
+      "command": "workbench.action.navigateRight",
+      "when": "!inQuickOpen"
+    },
+    {
+      "key": "ctrl+o",  // When in explorer
+      "command": "workbench.action.navigateRight",
+      "when": "filesExplorerFocus && !inputFocus && !inQuickOpen"
+    },
+    {
       "key": "ctrl+n", // tmux prefix C-n
+      "command": "workbench.action.navigateDown", 
+      "when": "neovim.mode != 'insert' && !inQuickOpen && !terminalFocus" 
+    },
+    {
+      "key": "ctrl+alt+down", // tmux prefix C-n
       "command": "workbench.action.navigateDown", 
       "when": "neovim.mode != 'insert' && !inQuickOpen && !terminalFocus" 
     },
@@ -345,14 +365,18 @@
       "command": "workbench.action.navigateUp",
       "when": "neovim.mode != 'insert' && !inQuickOpen" //editor.action.triggerSuggest
     },
-
-    {
-      "key": "ctrl+o",  // When in explorer
-      "command": "workbench.action.navigateRight",
-      "when": "filesExplorerFocus && !inputFocus && !inQuickOpen"
-    },
     {
       "key": "ctrl+e", 
+      "command": "workbench.action.navigateUp",
+      "when": "terminalFocus && !inQuickOpen"
+    },
+    {
+      "key": "ctrl+alt+up", 
+      "command": "workbench.action.navigateUp",
+      "when": "neovim.mode != 'insert' && !inQuickOpen" //editor.action.triggerSuggest
+    },
+    {
+      "key": "ctrl+alt+up", 
       "command": "workbench.action.navigateUp",
       "when": "terminalFocus && !inQuickOpen"
     },
@@ -508,7 +532,26 @@
       "command": "-gitlens.showQuickRepoHistory",
       "when": "!gitlens:disabled && config.gitlens.keymap == 'alternate'"
     },
+    {
+      "key": "ctrl+alt+right",
+      "command": "-cursorWordPartRight",
+      "when": "textInputFocus"
+    },
+    {
+      "key": "ctrl+alt+left",
+      "command": "-cursorWordPartLeft",
+      "when": "textInputFocus"
+    },
 
 //----------------test -------------------
-
+    {
+      "key": "",
+      "command": "cursorWordPartRight",
+      "when": "textInputFocus"
+    },
+    {
+      "key": "",
+      "command": "cursorWordPartLeft",
+      "when": "textInputFocus"
+    },
 ]
