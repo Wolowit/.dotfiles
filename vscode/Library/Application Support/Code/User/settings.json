@@ -1032,7 +1032,6 @@
     "workbench.startupEditor": "newUntitledFile",
     "python.showStartPage": false,
     "workbench.enableExperiments": false,
-    "workbench.iconTheme": "vscode-icons",
     "tabnine.experimentalAutoImports": true,
     "python.autoComplete.typeshedPaths": [
         "/Library/Frameworks/Python.framework/Versions/3.9/bin/python3"
@@ -1097,7 +1096,6 @@
     "window.menuBarVisibility": "toggle",
     "editor.minimap.enabled": false,
     "editor.accessibilitySupport": "off",
-    "workbench.activityBar.visible": false,
     "editor.lineNumbers": "relative",
     "prettier.semi": false,
     "prettier.singleQuote": true,
@@ -1107,7 +1105,8 @@
     "editor.fontLigatures": true,
     // Controls if file decorations should use badges.
     "explorer.decorations.badges": false,
-
+    
+    "workbench.iconTheme": "material-icon-theme",
     "workbench.colorTheme": "Community Material Theme Ocean High Contrast",
     "editor.tokenColorCustomizations": {
         "[Community Material Theme Ocean High Contrast]": {
@@ -1152,6 +1151,10 @@
     // run This command :: Reload Custom CSS and JS
     "vscode_custom_css.imports":["file:///Users/mooland/.config/VscodeCSS.css"],
     "vscode_custom_css.policy": true,
+    "terminal.integrated.gpuAcceleration": "no",
+    "workbench.activityBar.visible": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.donotVerifyTags": true,
 
     // "files.associations": {
     //     // extension name : html

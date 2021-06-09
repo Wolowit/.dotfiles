@@ -362,7 +362,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "v",
+                                    "key_code": "a",
                                     "modifiers": {
                                         "optional": [
                                             "any"
@@ -389,7 +389,7 @@
                                             "key_code": "s"
                                         },
                                         {
-                                            "key_code": "v"
+                                            "key_code": "a"
                                         }
                                     ],
                                     "simultaneous_options": {
@@ -496,7 +496,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "a",
+                                    "key_code": "e",
                                     "modifiers": {
                                         "optional": [
                                             "any"
@@ -523,7 +523,7 @@
                                             "key_code": "s"
                                         },
                                         {
-                                            "key_code": "a"
+                                            "key_code": "e"
                                         }
                                     ],
                                     "simultaneous_options": {

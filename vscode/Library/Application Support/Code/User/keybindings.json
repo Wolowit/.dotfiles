@@ -457,6 +457,11 @@
       "command": "gitlens.showQuickCommitFileDetails",
       "when": "editorTextFocus && !gitlens:disabled && config.gitlens.keymap == 'alternate' && neovim.mode != 'insert'"
     },
+    {
+      "key": "shift+alt+h",
+      "command": "gitlens.showQuickRepoHistory",
+      "when": "!gitlens:disabled && config.gitlens.keymap == 'alternate' && neovim.mode != 'insert'"
+    },
     
     //------------------- remove from default add here---------------------------
     {
@@ -497,6 +502,11 @@
       "key": "alt+c",
       "command": "-gitlens.showQuickCommitFileDetails",
       "when": "editorTextFocus && !gitlens:disabled && config.gitlens.keymap == 'alternate'"
+    },
+    {
+      "key": "shift+alt+h",
+      "command": "-gitlens.showQuickRepoHistory",
+      "when": "!gitlens:disabled && config.gitlens.keymap == 'alternate'"
     },
 
 //----------------test -------------------
