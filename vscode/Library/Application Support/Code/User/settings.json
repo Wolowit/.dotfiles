@@ -784,11 +784,17 @@
                     "type": "command",
                     "command": "workbench.view.scm"
                 },
+                // {
+                //     "key": "t",
+                //     "name": "Show test",
+                //     "type": "command",
+                //     "command": "workbench.view.extension.test"
+                // },
                 {
                     "key": "t",
-                    "name": "Show test",
+                    "name": "Show thunder client",
                     "type": "command",
-                    "command": "workbench.view.extension.test"
+                    "command": "workbench.view.extension.thunder-client-sidebar-view"
                 },
                 {
                     "key": "r",
@@ -818,8 +824,21 @@
                     "key": "d",
                     "name": "Show debug console",
                     "type": "command",
-                    "command": "workbench.debug.action.toggleRepl"
-                }
+                    // "command": "workbench.debug.action.toggleRepl"
+                    "command": "workbench.view.debug",
+                },
+                {
+                    "key": "D",
+                    "name": "Show Docker",
+                    "type": "command",
+                    "command": "workbench.view.extension.dockerView",
+                },
+                {
+                    "key": "b",
+                    "name": "Show bookmarks",
+                    "type": "command",
+                    "command": "workbench.view.extension.bookmarks",
+                },
             ]
         },
         {
@@ -1097,6 +1116,7 @@
     "editor.minimap.enabled": false,
     "editor.accessibilitySupport": "off",
     "editor.lineNumbers": "relative",
+    "editor.tabCompletion": "onlySnippets",   
     "prettier.semi": false,
     "prettier.singleQuote": true,
     // Controls the line height. Use 0 to compute the lineHeight from the fontSize.
@@ -1105,7 +1125,6 @@
     "editor.fontLigatures": true,
     // Controls if file decorations should use badges.
     "explorer.decorations.badges": false,
-    
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorTheme": "Community Material Theme Ocean High Contrast",
     "editor.tokenColorCustomizations": {
@@ -1152,9 +1171,12 @@
     "vscode_custom_css.imports":["file:///Users/mooland/.config/VscodeCSS.css"],
     "vscode_custom_css.policy": true,
     "terminal.integrated.gpuAcceleration": "no",
-    "workbench.activityBar.visible": false,
     "liveServer.settings.donotShowInfoMsg": true,
     "liveServer.settings.donotVerifyTags": true,
+    "cSpell.enableFiletypes": [
+        "vue"
+    ],
+    "workbench.activityBar.visible": false,
 
     // "files.associations": {
     //     // extension name : html

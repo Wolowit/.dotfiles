@@ -42,6 +42,14 @@ yabai -m rule --add app="^Activity Monitor$" sticky=on layer=above manage=off
 yabai -m rule --add app="^Preview$" sticky=on layer=above manage=off
 
 yabai -m rule --add app="^TinkerTool$" sticky=on layer=above manage=off
+yabai -m rule --add app="^Gestimer$" sticky=on layer=above manage=off
+yabai -m rule --add app="^CopyClip$" sticky=on layer=above manage=off
+yabai -m rule --add app="^Bartender 4$" sticky=on layer=above manage=off
+yabai -m rule --add app="^Amphetamine$" sticky=on layer=above manage=off
+yabai -m rule --add app="^Dropover$" sticky=on layer=above manage=off
+yabai -m rule --add app="^Numi$" sticky=on layer=above manage=off
+yabai -m rule --add app="^Tomato 2$" sticky=on layer=above manage=off
+yabai -m rule --add app="^Menubar Countdown$" sticky=on layer=above manage=off
 # yabai -m rule --add app="^WebTorrent$" sticky=on layer=above manage=off
 yabai -m rule --add app="^RunCat$" sticky=on layer=above manage=off
 yabai -m rule --add app="^Kap$" sticky=on layer=above manage=off
