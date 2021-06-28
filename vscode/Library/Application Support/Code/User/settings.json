@@ -1055,12 +1055,9 @@
     "python.autoComplete.typeshedPaths": [
         "/Library/Frameworks/Python.framework/Versions/3.9/bin/python3"
     ],
-    "workbench.editorAssociations": [
-        {
-            "viewType": "jupyter.notebook.ipynb",
-            "filenamePattern": "*.ipynb"
-        }
-    ],
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
     "aceJump.placeholder.backgroundColor": "#FFFFFF", //: placeholder background color; defaults to #c0b18b
     "aceJump.placeholder.color": "#FF0000", //: placeholder width; defaults to [#333](https://github.com/lucax88x/CodeAceJumper/issues/333)
     "aceJump.placeholder.upperCase": false, //: placeholder font to uppercase; defaults to false
